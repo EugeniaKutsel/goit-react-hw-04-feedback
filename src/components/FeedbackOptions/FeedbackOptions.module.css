@@ -1,0 +1,23 @@
+.feedbackOptions {
+  padding: 20px;
+}
+
+.button {
+  margin-right: 20px;
+  padding: 10px 30px;
+  background-color: rgb(13, 117, 207);
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+.button:hover {
+  background-color: white;
+  color: rgb(13, 117, 207);
+  border: 1px solid rgb(13, 117, 207);
+}

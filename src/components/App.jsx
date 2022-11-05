@@ -7,7 +7,14 @@ import Notification from "./Notification/Notification";
 import { FeedbackContext } from "./FeedbackContext/FeedbackContext";
 
 const App = () => {
-  const { good, neutral, bad, options, onLeaveFeedback, countTotalFeedback, countPositiveFeedbackPercentage } = useContext(FeedbackContext);
+  const {
+    good,
+    neutral,
+    bad,
+    options,
+    onLeaveFeedback,
+    countTotalFeedback,
+    countPositiveFeedbackPercentage } = useContext(FeedbackContext);
 
   return (
     <>

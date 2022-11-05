@@ -30,7 +30,15 @@ export const FeedbackContextProvider = ({children}) => {
   }
 
   return (
-    <FeedbackContext.Provider value={{ good, neutral, bad, options, onLeaveFeedback, countTotalFeedback, countPositiveFeedbackPercentage } }>
+    <FeedbackContext.Provider value=
+      {{
+        good,
+        neutral,
+        bad,
+        options,
+        onLeaveFeedback,
+        countTotalFeedback, countPositiveFeedbackPercentage
+      }}>
       {children}
     </FeedbackContext.Provider>
   );
